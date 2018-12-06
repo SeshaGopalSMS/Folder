@@ -40,6 +40,7 @@ page 51113 Gitpage
                 trigger OnAction()
                 begin
                     custreport.Run();
+                    Message('Report run successfully');
                 end;
             }
         }
