@@ -8,7 +8,6 @@ codeunit 51114 "sampleCU"
     local procedure MyProcedure()
     begin
         Message('Action Validation Successful');
-        message('req');
     end;
     var
         myInt: Integer;
